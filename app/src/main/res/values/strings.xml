@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DailyRecord</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">账户信息</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">记录今日</string>
+
+    <string name="camera_permission_rationale">摄像头权限对于添加图片功能是必须的,请同意该权限</string>
+    <string name="camera_permission_denied">访问摄像头权限被拒绝,请稍后在应用管理里面添加</string>
+    <string name="camera_permission_never_ask_again">不再申请摄像头权限</string>
+    <string name="dialog_button_allow">允许</string>
+    <string name="dialog_button_deny">禁止</string>
+
+    <string name="storage_permission_rationale">存储读写权限对于本应用是必须的,请同意该权限</string>
+    <string name="storage_permission_denied">存储读写权限被拒绝,请稍后在应用管理里面添加</string>
+    <string name="storage_permission_never_ask_again">不再申请存储读写权限</string>
+</resources>
