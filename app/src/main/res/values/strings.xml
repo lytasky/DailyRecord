@@ -18,7 +18,7 @@
     <string name="storage_permission_denied">存储读写权限被拒绝,请稍后在应用管理里面添加</string>
     <string name="storage_permission_never_ask_again">不再申请存储读写权限</string>
 
-    <string name="wx_login">微信登陆</string>
-    <string name="sina_login">新浪微博登陆</string>
-    <string name="qq_login">QQ登陆</string>
+    <string name="login_email">登陆邮箱：</string>
+    <string name="login_pwd">登陆密码：</string>
+    <string name="login_action">登 陆</string>
 </resources>

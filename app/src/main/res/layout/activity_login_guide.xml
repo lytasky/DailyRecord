@@ -25,42 +25,60 @@
         android:src="@mipmap/daily_record_logo"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="80dp"></ImageView>
-    <TextView
-        android:id="@+id/wx_login"
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:text="@string/wx_login"
-        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:textColor="@color/white"
-        android:textSize="@dimen/middle_text_size"
-        android:background="@drawable/wx_login_btn_bg"></TextView>
+>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_email"
+            android:textColor="@color/color_ff8a8a8a"
+            android:layout_marginRight="4dp">
 
-    <TextView
-        android:id="@+id/sina_login"
+        </TextView>
+        <EditText
+            android:id="@+id/user_mail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:text="@string/sina_login"
-        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:textColor="@color/white"
-        android:textSize="@dimen/middle_text_size"
-        android:layout_marginTop="6dp"
-        android:background="@drawable/sina_login_btn_bg"></TextView>
+        android:layout_marginTop="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_pwd"
+            android:textColor="@color/color_ff8a8a8a"
+            android:layout_marginRight="4dp">
+        </TextView>
+        <EditText
+            android:id="@+id/user_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textColor="@color/black"
+            android:inputType="textPassword"></EditText>
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/qq_login"
+    <Button
+        android:id="@+id/login_btn"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="@string/qq_login"
-        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:textColor="@color/white"
-        android:textSize="@dimen/middle_text_size"
-        android:layout_marginTop="6dp"
-        android:background="@drawable/qq_login_btn_bg"></TextView>
-
+        android:text="@string/login_action"></Button>
 </LinearLayout>
