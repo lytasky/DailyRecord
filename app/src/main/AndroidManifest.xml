@@ -30,6 +30,11 @@
         <activity
             android:name=".action.EditRecordActivity"
             android:theme="@style/Theme.DailyRecord.NoActionBar"></activity>
+        <activity
+            android:name=".gallery.GalleryActivity"
+            android:theme="@style/Theme.DailyRecord.NoActionBar"></activity>
+        <activity android:name=".login.LoginGuideActivity"
+            android:theme="@style/Theme.DailyRecord.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -7,9 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#29afec</color>
 
-    <color name="background_gray">#fff4f5f6</color>
 
-    <color name="light_text">#ffc0c0c0</color>
+    <color name="light_text">#ffb0b0b0</color>
     <color name="color_ff8a8a8a">#ff8a8a8a</color>
+    <color name="color_fff4f5f6">#fff4f5f6</color>
+    <color name="color_ff00cb00">#ff00cb00</color>
+    <color name="color_ffffff00">#ffffff00</color>
+    <color name="color_ffeb0000">#ffeb0000</color>
 </resources>

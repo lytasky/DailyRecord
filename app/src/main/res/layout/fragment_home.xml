@@ -14,5 +14,5 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@color/background_gray"/>
+        android:background="@color/color_fff4f5f6"/>
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

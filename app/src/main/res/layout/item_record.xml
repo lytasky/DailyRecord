@@ -18,6 +18,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            tools:text="14"
+           android:textColor="@color/black"
            android:layout_marginBottom="2dp"
            android:textSize="@dimen/middle_text_size">
        </TextView>
@@ -35,6 +36,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/white"
         android:background="@color/white">
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,7 +48,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                tools:text="测试测试测试测试测试测试测试测试测试测试测试测试"
                 android:textSize="@dimen/middle_text_size"
                 android:layout_marginBottom="4dp">
             </TextView>

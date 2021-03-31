@@ -4,6 +4,8 @@ import android.Manifest
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -16,6 +18,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.lytasky.dailyrecord.action.EditRecordActivity
+import com.lytasky.dailyrecord.login.LoginGuideActivity
 import com.lytasky.dailyrecord.utils.ViewUtils
 import permissions.dispatcher.*
 
@@ -45,6 +48,13 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
         requestInitPermissionWithPermissionCheck();
+
+        val headerLayout: View = navView.getHeaderView(0)
+        headerLayout.findViewById<TextView>(R.id.account_entry).setOnClickListener {
+            val intent = Intent(this, LoginGuideActivity::class.java).apply {
+            }
+            startActivity(intent)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

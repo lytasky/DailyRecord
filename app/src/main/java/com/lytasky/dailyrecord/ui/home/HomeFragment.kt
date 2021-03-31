@@ -48,7 +48,7 @@ class HomeFragment : Fragment() {
 
     private fun initRecyclerView(root: View) {
         recordRecyclerView = root.findViewById(R.id.record_recyclerview)
-        recordRecyclerAdapter = RecordRecyclerAdapter()
+        recordRecyclerAdapter = RecordRecyclerAdapter(activity!!)
         recordRecyclerView.layoutManager = LinearLayoutManager(activity)
         recordRecyclerView.adapter = recordRecyclerAdapter
     }

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/back_action"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/back_arrow">
+        </ImageView>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/daily_record_logo"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="80dp"></ImageView>
+    <TextView
+        android:id="@+id/wx_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/wx_login"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/middle_text_size"
+        android:background="@drawable/wx_login_btn_bg"></TextView>
+
+    <TextView
+        android:id="@+id/sina_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/sina_login"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/middle_text_size"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/sina_login_btn_bg"></TextView>
+
+    <TextView
+        android:id="@+id/qq_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/qq_login"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/middle_text_size"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/qq_login_btn_bg"></TextView>
+
+</LinearLayout>

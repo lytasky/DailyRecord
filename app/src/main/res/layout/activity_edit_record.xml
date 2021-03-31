@@ -1,8 +1,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -37,6 +38,7 @@
             android:textSize="@dimen/middle_text_size"
             android:layout_centerVertical="true"
             android:layout_marginLeft="4dp"
+            android:textColor="@color/light_text"
             android:text="/"></TextView>
         <TextView
             android:id="@+id/time_info"
@@ -46,6 +48,7 @@
             android:textSize="@dimen/middle_text_size"
             android:layout_centerVertical="true"
             android:layout_marginLeft="4dp"
+            android:textColor="@color/color_ff8a8a8a"
             tools:text="10:58"></TextView>
     </RelativeLayout>
     <ScrollView
@@ -64,6 +67,7 @@
                 android:background="@null"
                 android:minLines="10"
                 android:textSize="@dimen/middle_text_size"
+                android:textColor="@color/black"
                 android:gravity="top"></EditText>
             <LinearLayout
                 android:id="@+id/pic_array_ll"
