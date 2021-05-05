@@ -51,9 +51,9 @@ class MainActivity : AppCompatActivity() {
 
         val headerLayout: View = navView.getHeaderView(0)
         headerLayout.findViewById<TextView>(R.id.account_entry).setOnClickListener {
-            val intent = Intent(this, LoginGuideActivity::class.java).apply {
-            }
-            startActivity(intent)
+//            val intent = Intent(this, LoginGuideActivity::class.java).apply {
+//            }
+//            startActivity(intent)
         }
     }
 
